@@ -16,7 +16,7 @@ public class  Board
   public Board(){
     solvedPhrase = "";
     phrase = loadPhrase();
-    currentLetterValue = setLetterValue();
+    currentLetterValue = Board.setLetterValue();
     System.out.println("Phrase: " + phrase); 
 
   }

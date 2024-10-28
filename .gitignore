@@ -1,5 +1,7 @@
 # Compiled class file
-*.class
+Runner.class
+PhraseSolver.class
+Board.class
 
 # Log file
 *.log

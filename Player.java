@@ -15,13 +15,13 @@ public class Player
     Scanner scanner = new Scanner(System.in);
     String newName = scanner.nextLine();
 
-    name = newName;
+    String name = newName;
     System.out.println("Hello and welcome to the game " + name);
-    points = 0;
+    int points = 0;
 
   }
   public Player(String inputName){
-    name = inputName;
+    String name = inputName;
     System.out.println("Hello and welcome to the game " + name);
     points = 0;
   }
