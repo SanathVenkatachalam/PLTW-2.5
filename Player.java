@@ -17,11 +17,13 @@ public class Player
 
     name = newName;
     System.out.println("Hello and welcome to the game " + name);
+    points = 0;
 
   }
   public Player(String inputName){
     name = inputName;
     System.out.println("Hello and welcome to the game " + name);
+    points = 0;
   }
 
   /* your code here - accessor(s) */ 
