@@ -23,6 +23,7 @@ public class  Board
   
   /* your code here - accessor(s) */
   
+  
   /* your code here - mutator(s)  */
 
 
@@ -89,20 +90,35 @@ public class  Board
     return tempPhrase;
   }  
 
+/* Checks if the guessed letter is in the phrase
+*   Pre condition:
+*      if the letter was not aldready found
+*    Post condition:
+*      guessed letter is added to a new string
+*      rest are added with spaces.
+*/
+//defines guessLetter method
   public boolean guessLetter(String guess)
   {
+    /*initializes a boolean variable to check if the letter is in the phrase and 
+    defines a String that concatinates all the correct letters.*/
     boolean foundLetter = false;
     String newSolvedPhrase = "";
-    
+    //loop through the phrase to find the letter
     for (int i = 0; i < phrase.length(); i++)
     {
+      //if the letter(substring) in the phrase is equal to the guess
       if (phrase.substring(i, i + 1).equals(guess))
       {
-        newSolvedPhrase += guess + " ";
+        //add it to the solved phrase string
+        newSolvedPhrase += guess + " ";\
+        //change the boolean variable
         foundLetter = true;
       }
+      //if the letter is not found
       else
       {
+        //copy the space and underscore to the solved Phrase statement.
         newSolvedPhrase += solvedPhrase.substring(i * 2, i * 2 + 1) + " ";  
       }
     }
