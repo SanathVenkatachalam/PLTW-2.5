@@ -27,19 +27,23 @@ public class Player
   }
 
   /* your code here - accessor(s) */ 
+  //returns the player name
   public String getName(){
     return name;
   }
-  
+  //returns the amount of points a player has
   public int getPoints(){
     return points;
   }
   
 
   /* your code here - mutator(s) */ 
+  //sets the player's name
   public void setName(String inputName){
+    //changes the name variable to the input
     name = inputName
   }
+  //adds the points for the score
   public void addToPoints(int value){
     points+=value;
   }
