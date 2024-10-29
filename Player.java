@@ -30,15 +30,17 @@ public class Player
   public String getName(){
     return name;
   }
-  public void setName(String inputName){
-    return name;
-  }
+  
   public int getPoints(){
     return points;
   }
-  public void addToPoints(int value){
-    return points;
-  }
+  
 
   /* your code here - mutator(s) */ 
+  public void setName(String inputName){
+    name = inputName
+  }
+  public void addToPoints(int value){
+    points+=value;
+  }
 }
