@@ -22,12 +22,16 @@ public class  Board
   }
   
   /* your code here - accessor(s) */
+  //gets the phrase
+  //returns the phrase
   public String getPhrase(){
     return phrase;
   }
+  //gets partially solved phrase(returns it)
   public String getPartiallySolvedPhrase(){
     return solvedPhrase;
   }
+  //gets the value of the letter(returns it)
   public int getLetterValue(){
     return currentLetterValue;
   }
