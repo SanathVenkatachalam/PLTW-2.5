@@ -22,8 +22,8 @@ public class  Board
   }
   
   /* your code here - accessor(s) */
-  //gets the phrase
-  //returns the phrase
+  /*gets the phrase
+  returns the phrase*/
   public String getPhrase(){
     return phrase;
   }
@@ -109,6 +109,8 @@ public class  Board
 *    Post condition:
 *      guessed letter is added to a new string
 *      rest are added with spaces.
+*       This method returns immediately whether or not the guessed letter is there or not
+*      @param guess A string of characters that encompasses the character's guess
 */
 //defines guessLetter method
   public boolean guessLetter(String guess)

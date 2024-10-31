@@ -38,12 +38,16 @@ public class Player
   
 
   /* your code here - mutator(s) */ 
-  //sets the player's name
+  /*sets the player's name
+  @param inputName a String containing characters that represents someone's name 
+  */
   public void setName(String inputName){
     //changes the name variable to the input
     name = inputName
   }
-  //adds the points for the score
+  /*adds the points for the score
+  @param value a numerical value that is used to add points
+  */
   public void addToPoints(int value){
     points+=value;
   }
