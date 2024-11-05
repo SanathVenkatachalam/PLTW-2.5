@@ -11,6 +11,8 @@ public class PhraseSolver
 
   /* your code here - constructor(s) */
   public PhraseSolver(){
+    //initializes player 1 ,player 2 as Player objects
+    // initializes board as Board objects and sets the solved flag to false
     Player player1 = new Player();
     Player player2 = new Player();
     Board board = new Board();
